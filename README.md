@@ -13,10 +13,22 @@ Ce projet sert à analyser la demande de l'utilisateur, par un agent coordinateu
 python -m venv venv
 venv\Scripts\activate
 ```
+
 3. Installer les dépendances du projet
 ```cmd
 pip install -r requirements.txt
 ```
 
+4. Lancer la version web de google_adk
+```cmd
+adk web --port 8000
+```
+
+5. Naviguer vers le lien indiqué par l'éxecution de la ligne de commande précédente
+6. Sélectionner l'agent "coordinator_agent"
+
+Vous pouvez désormais effectuer des requêtes vers les agents
 
 ## Requêtes de test
+1. Comment réinitialiser mon mot de passe ? Mon email est john.doe@gmail.com
+2. 
