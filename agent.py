@@ -1,0 +1,2 @@
+from coordinator_agent.agent import coordinator_agent
+root_agent = coordinator_agent

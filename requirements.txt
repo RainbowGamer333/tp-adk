@@ -1,0 +1,2 @@
+google_adk
+litellm>=1.75.5
